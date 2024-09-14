@@ -38,7 +38,7 @@
    <right>
       <AnchorPane prefHeight="400.0" prefWidth="317.0" BorderPane.alignment="CENTER">
          <children>
-            <Label alignment="CENTER" layoutX="11.0" layoutY="48.0" prefHeight="46.0" prefWidth="295.0" text="Log In">
+            <Label alignment="CENTER" layoutX="11.0" layoutY="48.0" prefHeight="46.0" prefWidth="295.0" text="Register!!!">
                <font>
                   <Font name="Cambria Math" size="25.0" />
                </font>
@@ -48,21 +48,16 @@
                   <Insets />
                </opaqueInsets>
             </TextField>
-            <Button fx:id="loginbutton" layoutX="41.0" layoutY="237.0" mnemonicParsing="false" onAction="#labelbuttonmessage" prefHeight="20.0" prefWidth="236.0" style="-fx-background-color: #263F73;" text="Login" textFill="#e7c0c0">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Button>
-            <Button fx:id="exitbutton" layoutX="41.0" layoutY="283.0" mnemonicParsing="false" onAction="#exitbuttonAction" prefHeight="20.0" prefWidth="236.0" style="-fx-background-color: #263F73;" text="Exit" textFill="#e7c0c0">
+            <Button fx:id="loginbutton" layoutX="42.0" layoutY="237.0" mnemonicParsing="false" onAction="#labelbuttonmessage" prefHeight="30.0" prefWidth="235.0" style="-fx-background-color: #263F73;" text="Register" textFill="#e7c0c0">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
             <PasswordField fx:id="passfield" layoutX="125.0" layoutY="174.0" promptText="Enter your Password" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
             <Label fx:id="errormessage" alignment="CENTER" layoutX="40.0" layoutY="94.0" prefHeight="18.0" prefWidth="231.0" textFill="RED" />
-            <Hyperlink layoutX="218.0" layoutY="325.0" onAction="#switchtoregister" text="Register?" />
-            <Label layoutX="48.0" layoutY="135.0" text="Username" />
-            <Label layoutX="48.0" layoutY="178.0" text="Password" />
+            <Hyperlink layoutX="220.0" layoutY="279.0" onAction="#switchtologin" text="Back" />
+            <Label layoutX="47.0" layoutY="136.0" prefHeight="18.0" prefWidth="67.0" text="Username" />
+            <Label layoutX="47.0" layoutY="179.0" prefHeight="18.0" prefWidth="67.0" text="Password" />
          </children>
       </AnchorPane>
    </right>
